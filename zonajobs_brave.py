@@ -19,11 +19,11 @@ SCRIPT_DIR = os.path.dirname(__file__)
 PROFILE_DIR = os.path.join(SCRIPT_DIR, "brave_profile_zonajobs")  # perfil dedicado para ZJ
 os.makedirs(PROFILE_DIR, exist_ok=True)
 
-PALABRAS = ["Soporte Técnico", "PC","unicenter","programador" ,"Administrativo", "IT"]
+PALABRAS = ["Soporte Técnico", "PC","unicenter","programador",".NET" ,"Administrativo", "IT", "Helpdesk", "Desarrollador"]
 CIUDAD = "Buenos Aires"
 PAGINAS_MAX = 4
 MAX_POR_PALABRA = 8
-MAX_TOTAL = 20
+MAX_TOTAL = 25
 REVIEW_MODE = False
 KEEP_OPEN_AFTER_RUN = True
 
